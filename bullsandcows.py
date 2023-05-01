@@ -1,3 +1,4 @@
+# 좌훈님
 from random import randint
 
 def answers_generate():
@@ -11,3 +12,13 @@ def answers_generate():
     return answers
 
 #print(answers_generate())
+
+
+# 민주님
+import random
+
+num = list(range(0,10))
+answer = []
+for i in range(4):
+     answer.append(num.pop(num.index(random.choice(num))))
+
