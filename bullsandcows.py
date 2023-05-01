@@ -5,8 +5,9 @@ def answers_generate():
     i = 0
     while i < 4:
         generate = randint(0, 9)
-        answers.append(generate)
-        i += 1
+        if(generate not in answers):
+            answers.append(generate)
+            i += 1
     return answers
 
-print(answers_generate())
+#print(answers_generate())
